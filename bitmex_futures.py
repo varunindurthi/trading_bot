@@ -9,6 +9,4 @@ def get_contracts():
         contracts.append(symbol)
     return contracts
 
-    
-    # return contracts
-print(get_contracts())
+     
