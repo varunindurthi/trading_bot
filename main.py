@@ -25,9 +25,9 @@ logger.addHandler(file_handler)
 
 if __name__ == '__main__':  
 
-    binance = BinanceFuturesClient(credentials()[0], credentials()[1] ,True)
+    binance = BinanceFuturesClient(credentials()[0], credentials()[1] , True)
 
-           
+               
     root = tk.Tk()
     root.configure(bg='gray12')
 
