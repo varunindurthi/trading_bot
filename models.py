@@ -10,7 +10,7 @@ class Balance:
 
 class Candle:
     def __init__(self, candle_info):
-        self.timestamp = float(candle_info[0]))
+        self.timestamp = float(candle_info[0])
         self.open = float(candle_info[1])
         self.close = float(candle_info[2])
         self.high = float(candle_info[3])
